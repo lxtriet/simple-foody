@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="46dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
+            app:tabTextColor="@color/colorWhite"
+            app:tabSelectedTextColor="@color/colorBlack"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="115dp"
+            android:layout_height="28dp"
+            app:tabPadding="0dp"
+            app:tabIndicatorHeight="0dp"
+            style="@style/TabLayouts"
+            app:tabBackground="@drawable/tablayout_background_app"
+            android:background="@drawable/tablayout_background_android" />
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_search"/>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">14110208_Foody</string>
+    <string name="tab_search">Search</string>
+    <string name="btn_ChangeDistrict">Đổi tỉnh thành</string>
+    <string name="btn_Cancel">Hủy</string>
+    <string name="list_type">Danh mục</string>
+    <string name="txt_nothing">Không có kết quả!</string>
+    <string name="txt_Order">Đặt mua hàng</string>
+    <string name="btn_Near">Gần tôi</string>
+    <string name="btn_Coupon">Coupon</string>
+    <string name="btn_Booking">Đặt chỗ ưu đãi</string>
+    <string name="btn_Ship">Đặt giao hàng</string>
+    <string name="btn_Card">E-card</string>
+    <string name="btn_Cmt">Bình luận</string>
+    <string name="btn_Game">Game and Fun</string>
+    <string name="btn_Blog">Blogs</string>
+    <string name="btn_Top">Top thành viên</string>
+    <string name="btn_Video">Video</string>
+    <string name="btn_ScanCoupon">Quét mã coupon</string>
+    <string name="btn_uploadImage">Đăng ảnh</string>
+    <string name="btn_Checkin">Check-in</string>
+    <string name="btn_Reviews">Viết bình luận</string>
+    <string name="btn_AddPlace">Thêm địa điểm</string>
+    <string name="tab_Category">Mới nhất</string>
+    <string name="tab_Category_Type">Danh mục</string>
+    <string name="tab_Address">TP.HCM</string>
+    <string name="btn_ChangeCity">Đổi tỉnh thành</string>
+    <string name="google_maps_key">AIzaSyB0KvQpxxMYQ0vYbWAT1cHjGAR0Azb1cAE</string>
+
+
+
+</resources>

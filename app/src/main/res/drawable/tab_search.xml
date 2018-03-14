@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:bottom="10dp"
+		android:left="10dp"
+		android:right="10dp"
+		android:top="10dp">
+		<selector xmlns:android="http://schemas.android.com/apk/res/android">
+			<item android:drawable="@drawable/mainmenuicon_searchactive"
+				android:state_selected="true" >
+			</item>
+			<item android:drawable="@drawable/mainmenuicon_search" >
+			</item>
+		</selector>
+	</item>
+</layer-list>

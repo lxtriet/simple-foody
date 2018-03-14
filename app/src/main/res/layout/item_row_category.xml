@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/lnOneCategory"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    >
+    <ImageView
+        android:id="@+id/item_row_category_img"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/home_ic_filter_latest_act"
+        android:padding="3dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mới nhất"
+        android:id="@+id/item_row_category_txt"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        android:layout_gravity="center_vertical"
+
+        />
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="18dp"
+        android:text="New"
+        android:textAllCaps="false"
+        android:textSize="13dp"
+        android:id="@+id/item_row_category_isNew"
+        android:background="@drawable/is_new"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_vertical"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        />
+
+
+    <ImageView
+        android:id="@+id/item_row_category_isselected"
+        android:padding="3dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right|center_vertical"
+        android:src="@drawable/stick_icon"
+        android:backgroundTint="@android:color/transparent"
+        android:background="@android:color/transparent"
+        />
+</LinearLayout>

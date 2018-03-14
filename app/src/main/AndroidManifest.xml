@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xuant.a14110208_foody">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_foody_main"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".View.ScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".View.Main_HomeActivity" />
+        <activity android:name=".View.Main_CollectionActivity" />
+        <activity android:name=".View.Profile.Main_ProfileActivity" />
+        <activity android:name=".View.Main_NotificationActivity" />
+        <activity android:name=".View.Main_SearchActivity" />
+        <activity
+            android:name=".View.Main_Home_IconFoody"
+            android:parentActivityName=".View.Main_HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Main_HomeActivity" />
+        </activity>
+        <activity android:name=".View.Change_City">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Main_HomeActivity" />
+        </activity>
+        <activity android:name=".View.Change_City_What">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Main_HomeActivity" />
+        </activity>
+        <activity android:name=".View.Change_Country">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Change_City" />
+        </activity>
+        <activity android:name=".View.Profile.Profile_LoginFoody">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Profile.Main_ProfileActivity" />
+        </activity>
+        <activity android:name=".View.Profile.LoginFoody_ByEmail">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Profile.Profile_LoginFoody" />
+        </activity>
+        <activity android:name=".View.Profile.LoginFoody_SignUp">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Profile.Profile_LoginFoody" />
+        </activity>
+        <activity android:name=".View.Profile.Profile_Infomation">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Profile.Main_ProfileActivity" />
+        </activity>
+        <activity android:name=".View.Profile.Profile_SettingAccount">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Profile.Main_ProfileActivity" />
+        </activity>
+        <activity android:name=".View.Profile.SettingAccount_ChangePass">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Profile.Profile_SettingAccount" />
+        </activity>
+        <activity
+            android:name=".View.Main_Home_AddLocation"
+            android:parentActivityName=".View.Main_HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Main_HomeActivity" />
+        </activity>
+        <activity android:name=".View.Profile.SettingAccount_ChangeAva">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Profile.Profile_SettingAccount" />
+        </activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".View.AddLocation_Map"
+            android:label="@string/title_activity_add_location__map"></activity>
+        <activity android:name=".View.AddLocation_MapMain">
+
+        </activity>
+    </application>
+
+</manifest>

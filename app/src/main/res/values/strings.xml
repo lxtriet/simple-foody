@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">14110208_Foody</string>
+    <string name="tab_search">Search</string>
+    <string name="btn_ChangeDistrict">Change District</string>
+    <string name="btn_Cancel">Cancel</string>
+    <string name="list_type">Category</string>
+    <string name="txt_nothing">Nothing!</string>
+    <string name="txt_Order">Order</string>
+    <string name="btn_Near">Nearby</string>
+    <string name="btn_Coupon">Coupon</string>
+    <string name="btn_Booking">Reservation</string>
+    <string name="btn_Ship">Order Delivery</string>
+    <string name="btn_Card">E-card</string>
+    <string name="btn_Cmt">Reviews</string>
+    <string name="btn_Game">Game and Fun</string>
+    <string name="btn_Blog">Blogs</string>
+    <string name="btn_Top">Top members</string>
+    <string name="btn_Video">Video</string>
+    <string name="btn_ScanCoupon">Scan coupon</string>
+    <string name="btn_uploadImage">Upload image</string>
+    <string name="btn_Checkin">Check-in</string>
+    <string name="btn_Reviews">Review</string>
+    <string name="btn_AddPlace">Add new place</string>
+    <string name="tab_Category">Category</string>
+    <string name="tab_Category_Type">Category type</string>
+    <string name="tab_Address">Address</string>
+    <string name="btn_ChangeCity">Change City</string>
+    <string name="title_activity_add_location__map">Map</string>
+    <string name="title_activity_google_map">Map</string>
+    <string name="google_maps_key">AIzaSyB0KvQpxxMYQ0vYbWAT1cHjGAR0Azb1cAE</string>
+
+
+</resources>

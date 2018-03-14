@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/lnOneCategory"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    >
+    <ImageView
+        android:id="@+id/item_row_changecity_isChoose"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/stick_icon"
+        android:paddingTop="7dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mới nhất"
+        android:id="@+id/item_row_changecity_txt"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:textAllCaps="true"
+        android:layout_gravity="center_vertical"
+
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        />
+
+
+
+</LinearLayout>
